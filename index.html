@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Portafolio de Desarrollo</title>
+</head>
+<body>
+
+  <header>
+    <h1>Bienvenidos a mi sitio web</h1>
+    <nav>
+      <ul>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="proyectos">
+      <h2>Mis últimos trabajos</h2>
+
+      <!-- Proyecto 1 -->
+      <figure>
+        <a href="https://github.com" target="_blank">
+          <img src="https://www.eedeporte.com/wp-content/uploads/MINIBLOGS-6.png" alt="Captura de pantalla de una aplicación web">
+        </a>
+        <figcaption>Aplicación de clima hecha con HTML y CSS.</figcaption>
+      </figure>
+
+      <!-- Proyecto 2 -->
+      <figure>
+        <a href="https://codepen.io">
+          <img src="https://www.eedeporte.com/wp-content/uploads/MINIBLOGS-6.png" alt="Página de aterrizaje de un producto">
+        </a>
+        <figcaption>Diseño de una <em>Landing Page</em> responsiva.</figcaption>
+      </figure>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacta conmigo</h2>
+      <p>Si quieres trabajar juntos, puedes rellenar el siguiente formulario:</p>
+
+      <form action="/enviar-datos" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+        <button type="submit">Enviar mensaje</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Portafolio de Desarrollo. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
